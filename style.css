@@ -79,3 +79,32 @@ html, body {
 
 /* MAIN */
 /* SECTION 1 */
+.container-section1 {
+    background-color: var(--dark-blue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+}
+
+.container-section1 article {
+    margin: 0 2%;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin-bottom: 40px;
+    width: 250px;
+}
+
+.link-btn {
+    background-color: var(--blue);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    margin-top: 200px;
+}
+
