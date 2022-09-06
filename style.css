@@ -137,3 +137,43 @@ html, body {
 }
 
 /* SECTION 3 */
+
+.container-section3 {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 40px 0;
+    margin: 0 auto;
+
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-section h4 {
+    font-size: 1.3;
+}
+
+.text-section p {
+    text-align: center;
+    width: 80%;
+}
+
+.member-container {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.container-section3 img {
+    width: 250px;
+    height: 180px;
+}
+
+.member-container article {
+    margin: 0 20px;
+}
